@@ -34,7 +34,7 @@ OBJET = $(addprefix $(OBJDIR)/, \
 endif
 
 CXX        = g++-9
-CUDA       = /usr/local/cuda-12.6
+CUDA       = /usr/local/cuda-12.2
 CXXCUDA    = /usr/bin/g++-9
 NVCC       = /usr/bin/nvcc
 
