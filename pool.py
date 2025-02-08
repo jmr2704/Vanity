@@ -49,7 +49,7 @@ def run_program(start, end):
         "-t", "0",
         "-gpu",
         "-gpuId", "0,1",
-        "-g", "1536,1536",
+        "-g", "2048,2048",
         "-i", "in.txt",
         "-o", "out.txt",
         "--keyspace", keyspace
